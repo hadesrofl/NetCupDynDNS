@@ -48,7 +48,7 @@ internal class Program
 
     private static void StartWaitTimer()
     {
-        Console.WriteLine();
+        Console.WriteLine($"Next execution in {ExecutionInterval} minutes.");
         var waitTime = ExecutionInterval;
         while (waitTime.Ticks > 0)
         {

@@ -29,7 +29,8 @@ internal record IgnoredHosts(List<string> Hostnames)
         catch (Exception)
         { 
             Console.WriteLine(
-                $"Couldn't read environment variable {EnvironmentVariables.NetcupIgnoredHosts}. Loading default hostnames");
+                $"Couldn't read environment variable {EnvironmentVariables.NetcupIgnoredHosts}. \n" +
+                $"Loading default hostnames \"{string.Join(",", DefaultHostnames)}\"!");
         }
 
         IgnoredHosts ignoredHosts = new(ignoredHostnames);
