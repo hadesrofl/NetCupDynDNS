@@ -1,0 +1,21 @@
+{
+  "Credentials": {
+    "Domain": "YourDomainHere",
+    "ApiCustomerNumber": 0,
+    "ApiClientPW": "YourClientPWHere",
+    "ApiClientKey": "YourClientKeyHere"
+  },
+  "IgnoredHosts": {
+    "Hostnames": [
+      "*",
+      "@",
+      "autoconfig",
+      "db",
+      "google",
+      "key1._domainkey",
+      "key2._domainkey",
+      "mail",
+      "webmail"
+    ]
+  }
+}
