@@ -52,7 +52,7 @@ You only have to Execute the WinX64.exe
 
 ## Docker
 
-There is a docker image available or can be build from source in this repository.
+There is a docker image available in this repository or can be built from source in this repository.
 
 ### Build from source
 
